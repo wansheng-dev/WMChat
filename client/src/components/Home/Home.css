@@ -1,0 +1,31 @@
+.homeH1 {
+  font-size: 1000%;
+  margin-bottom: 0px;
+  color: transparent;
+  background-image: linear-gradient(to right, #f00,#ff0,#0ff,#0f0,#00f);
+  -webkit-background-clip: text;
+  animation: animate 20s linear infinite;
+  background-size: 1000%;
+}
+
+@keyframes animate{
+  0%{
+    background-position: 0% 100%;
+  }
+
+  50%{
+    background-position: 100% 0%;
+  }
+
+  100%{
+    background-position: 0% 100%;
+  }
+}
+
+.homeH1:hover {
+  color: #FDB927
+}
+
+.homeLink {
+  text-decoration: none;
+}

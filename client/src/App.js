@@ -1,14 +1,15 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Join from './components/Join/Join';
 import Chat from './components/Chat/Chat';
+import Home from './components/Home/Home';
 
 const App = () => {
   return (
     <Router>
-      <Redirect from='/' to='/join' noThrow/>
-      <Route path='/join' eaxct component={Join} />
-      <Route path='/chat' eaxct component={Chat} />
+      <Route path='/' exact component={Home} />
+      <Route path='/join' exact component={Join} />
+      <Route path='/chat' exact component={Chat} />
     </Router>
   )
 }

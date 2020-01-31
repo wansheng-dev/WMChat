@@ -8,6 +8,7 @@ const TextContainer = ({ users }) => (
   <div className="textContainer">
     <div>
       <h1>Realtime Chat Application - WMChat<span role="img" aria-label="emoji"> 💬</span></h1>
+      <p> by Wan Sheng & Michael Chen</p>
       <h2>Created with React, Express, Node and Socket.IO <span role="img" aria-label="emoji">❤️</span></h2>
     </div>
     {

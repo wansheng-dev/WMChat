@@ -2,4 +2,8 @@
   padding: 5% 0;
   overflow: auto;
   flex: auto;
+  background-image: url('../../imgs/logo-kobe.gif');
+  background-size: 30% ;
+  background-repeat: no-repeat;
+  background-position: center;
 }
